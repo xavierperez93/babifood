@@ -1,0 +1,13 @@
+/***************CSS Customiser Babifood*****************/
+
+	/*****Début définition des couleur du logo************/
+		.babifoodTitleLeft{
+			color: orange;
+		}
+		.babifoodTitleCenter{
+			color: gray;
+		}
+		.babifoodTitleRight{
+			color: green;
+		}
+	/*****Fin définition des couleur du logo************/

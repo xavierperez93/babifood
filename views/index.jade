@@ -1,0 +1,249 @@
+extends layout
+block content
+ 
+    header#top.bs-docs-nav.navbar.navbar-fixed-top
+      .container
+        .navbar-header
+          button.collapsed.navbar-toggle(aria-controls='bs-navbar', aria-expanded='false', data-target='#bs-navbar', data-toggle='collapse', type='button')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='')
+            span.babifoodTitleLeft Ba
+            span.babifoodTitleCenter biF
+            span.babifoodTitleRight ood
+        nav#bs-navbar.collapse.navbar-collapse
+          ul.nav.navbar-nav
+            
+            li
+              a(href='') Restaurants
+          form.navbar-form.navbar-left(action='#')
+            .input-group
+              input.form-control(type='search', placeholder='Rechercher', size='40')
+              .input-group-btn
+                button.btn.btn-default(type='button')
+                  span.glyphicon.glyphicon-search
+          ul.nav.navbar-nav.navbar-right
+            li
+              a(href='#')
+                | Mes commandes 
+                span.glyphicon.glyphicon-shopping-cart(aria-hidden='true')
+                |  (1)
+            li
+              a(href='#', data-toggle='modal', data-target='#inscription') S'inscrire
+            li
+              a(href='#', data-toggle='modal', data-target='#connexion') Se connecter
+    br
+    br
+    br
+    #Food
+      .container-fluid
+        .row
+          .col-md-2.col-md-offset-2
+            .panel
+              .panel-heading
+              .panel-body.text-center
+                img.col-md-12(src='images/poissonBraise.jpg')
+                h5.panel-title Poisson braisé
+                p.m-b Resto Chic & Choc
+                form(action='#')
+                  button.btn.btn-primary.btn-sm.m-b
+                    input.text-center(type='text', size='2', placeholder='1')
+                    span.glyphicon.glyphicon-plus Commander
+          .col-md-2
+            .panel
+              .panel-heading
+              .panel-body.text-center
+                img.col-md-12(src='images/poissonBraise.jpg')
+                h5.panel-title Poisson braisé
+                p.m-b Resto Chic & Choc
+                form(action='#')
+                  button.btn.btn-primary.btn-sm.m-b
+                    input.text-center(type='text', size='2', placeholder='1')
+                    span.glyphicon.glyphicon-plus Commander
+          .col-md-2
+            .panel
+              .panel-heading
+              .panel-body.text-center
+                img.col-md-12(src='images/poissonBraise.jpg')
+                h5.panel-title Poisson braisé
+                p.m-b Resto Chic & Choc
+                button.btn.btn-primary.btn-sm.m-b
+                    input.text-center(type='text', size='2', placeholder='1')
+                    span.glyphicon.glyphicon-plus Commander
+          .col-md-2
+            .panel
+              .panel-heading
+              .panel-body.text-center
+                img.col-md-12(src='images/poissonBraise.jpg')
+                h5.panel-title Poisson braisé
+                p.m-b Resto Chic & Choc
+                form(action='#')
+                  button.btn.btn-primary.btn-sm.m-b
+                    input.text-center(type='text', size='2', placeholder='1')
+                    span.glyphicon.glyphicon-plus Commander
+          .col-md-2.col-md-offset-2
+            .panel
+              .panel-heading
+              .panel-body.text-center
+                img.col-md-12(src='images/poissonBraise.jpg')
+                h5.panel-title Poisson braisé
+                p.m-b Resto Chic & Choc
+                form(action='#')
+                  button.btn.btn-primary.btn-sm.m-b
+                    input.text-center(type='text', size='2', placeholder='1')
+                    span.glyphicon.glyphicon-plus Commander
+          .col-md-2
+            .panel
+              .panel-heading
+              .panel-body.text-center
+                img.col-md-12(src='images/poissonBraise.jpg')
+                h5.panel-title Poisson braisé
+                p.m-b Resto Chic & Choc
+                form(action='#')
+                  button.btn.btn-primary.btn-sm.m-b
+                    input.text-center(type='text', size='2', placeholder='1')
+                    span.glyphicon.glyphicon-plus Commander
+          .col-md-2
+            .panel
+              .panel-heading
+              .panel-body.text-center
+                img.col-md-12(src='images/poissonBraise.jpg')
+                h5.panel-title Poisson braisé
+                p.m-b Resto Chic & Choc
+                form(action='#')
+                  button.btn.btn-primary.btn-sm.m-b
+                    input.text-center(type='text', size='2', placeholder='1')
+                    span.glyphicon.glyphicon-plus Commander
+          .col-md-2
+            .panel
+              .panel-heading
+              .panel-body.text-center
+                img.col-md-12(src='images/poissonBraise.jpg')
+                h5.panel-title Poisson braisé
+                p.m-b Resto Chic & Choc
+                form(action='#')
+                  button.btn.btn-primary.btn-sm.m-b
+                    input.text-center(type='text', size='2', placeholder='1')
+                    span.glyphicon.glyphicon-plus Commander
+    // Debut de la zone de pagination du site
+    .col-md-10.text-right
+      // <center>
+      nav#pagination
+        ul.pagination
+          li.disabled
+            a(href='#') «
+          li.active
+            a(href='#') 1
+          li
+            a(href='#') 2
+          li
+            a(href='#') 3
+          li
+            a(href='#') 4
+          li
+            a(href='#') 5
+          li
+            a(href='#') »
+      // </center>
+    .col-md-offset-2
+    // Fin de la zone de pagination du site
+    //
+      <footer class="bs-docs-footer">
+      <div class="container">
+      <ul class="bs-docs-footer-links">
+      <li>
+      <a href="https://github.com/twbs/bootstrap">GitHub</a>
+      </li>
+      <li>
+      <a href="https://twitter.com/getbootstrap">Twitter</a>
+      </li>
+      <li>
+      <a href="../getting-started/#examples">Examples</a></li>
+      <li>
+      <a href="../about/">About</a></li>
+      </ul>
+      <p>Designed and built with all the love in the world by
+      <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and
+      <a href="https://twitter.com/fat" target="_blank">@fat</a>. Maintained by the
+      <a href="https://github.com/orgs/twbs/people">core team</a> with the help of
+      <a href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.
+      </p>
+      <p>Code licensed
+      <a href="https://github.com/twbs/bootstrap/blob/master/LICENSE" target="_blank" rel="license">MIT</a>, docs
+      <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license">CC BY 3.0</a>.
+      </p>
+      </div>
+      </footer>
+    // Début connexion utilisateur
+    #connexion.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel')
+      .modal-dialog(role='document')
+        .modal-content
+          .modal-header
+            button.close(type='button', data-dismiss='modal', aria-label='Close')
+              span(aria-hidden='true') ×
+            h2#myModalLabel.text-center
+              span.babifoodTitleLeft Ba
+              span.babifoodTitleCenter biF
+              span.babifoodTitleRight ood
+          .box
+            #header
+              center
+                h1#logintoregister Connexion
+            form(action='', method='post')
+              .group
+                input.inputMaterial(type='text', required='')
+                span.highlight
+                span.bar
+                label Email
+              .group
+                input.inputMaterial(type='password', required='')
+                span.highlight
+                span.bar
+                label Mot de passe
+              button#buttonlogintoregister(type='submit') Connexion
+            #footer-box
+              p.footer-text
+                | Pas membre ?
+                span.sign-up  Inscrivez-vous
+      .modal-footer
+    // Fin connexion utilisateur
+    // Debut inscription utilisateur
+    #inscription.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel')
+      .modal-dialog(role='document')
+        .modal-content
+          .modal-header
+            button.close(type='button', data-dismiss='modal', aria-label='Close')
+              span(aria-hidden='true') ×
+            h2#myModalLabel.text-center
+              span.babifoodTitleLeft Ba
+              span.babifoodTitleCenter biF
+              span.babifoodTitleRight ood
+          .box
+            #header
+              // <center><h1 id="logintoregister">Inscrivez-vous</h1></center>
+            form(action='', method='post')
+              .group
+                input.inputMaterial(type='text', required='')
+                span.highlight
+                span.bar
+                label Email
+              .group
+                input.inputMaterial(type='text', required='')
+                span.highlight
+                span.bar
+                label Téléphone
+              .group
+                input.inputMaterial(type='password', required='')
+                span.highlight
+                span.bar
+                label Mot de passe
+              .group
+                input.inputMaterial(type='password', required='')
+                span.highlight
+                span.bar
+                label Confirmer votre mot de passe
+              button#buttonlogintoregister(type='submit') S'inscrire
+      .modal-footer
+

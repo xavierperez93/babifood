@@ -1,0 +1,25 @@
+extends layout
+
+block content
+
+    title BABIFOOD    
+  body
+    .box
+      #header
+        h1#logintoregister BABIFOOD
+      form(action='', method='post')
+        .group
+          input.inputMaterial(type='text', required='')
+          span.highlight
+          span.bar
+          label Identifiant
+        .group
+          input.inputMaterial(type='password', required='')
+          span.highlight
+          span.bar
+          label Mot de passe
+        button#buttonlogintoregister(type='submit') Connexion
+      #footer-box
+        p.footer-text
+          | Pas membre ?
+          span.sign-up  Inscrivez-vous
